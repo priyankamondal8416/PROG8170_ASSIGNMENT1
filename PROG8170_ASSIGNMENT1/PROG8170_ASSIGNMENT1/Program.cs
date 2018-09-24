@@ -8,7 +8,6 @@ namespace PROG8170_ASSIGNMENT1
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             int rectangleChoice = CheckRectangleOption();
