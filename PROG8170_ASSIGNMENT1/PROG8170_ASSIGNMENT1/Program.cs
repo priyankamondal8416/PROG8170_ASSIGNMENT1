@@ -93,7 +93,8 @@ namespace PROG8170_ASSIGNMENT1
                 Console.WriteLine("\n***********************************************************");
                 Console.WriteLine($"Press 1 to Create default (1 unit X 1 unit) Rectangle");
                 Console.WriteLine($"Press 2 to Create custom Rectangle.");
-
+                Console.WriteLine("\n***********************************************************");
+                Console.WriteLine("\nPlease select an option, by entering a number:");
                 string userInput = Console.ReadLine();
 
                 bool input = int.TryParse(userInput, out choice);
@@ -119,7 +120,6 @@ namespace PROG8170_ASSIGNMENT1
             return choice;
 
         }
-
 
         public static void GetRectangleDetails(int rectangleChoice)
         {
