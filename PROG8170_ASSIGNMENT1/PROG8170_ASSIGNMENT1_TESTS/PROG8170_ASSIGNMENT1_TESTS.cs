@@ -90,7 +90,7 @@ namespace PROG8170_ASSIGNMENT1_TESTS
         }
 
         [Test]
-        public void SetLenght_inputWidth5_expectWidthEquals5()
+        public void SetWidth_inputWidth5_expectWidthEquals5()
         {
             // Arrange Data
             int w = 5;
